@@ -1,7 +1,7 @@
 # Generalized-Planning-for-the-Abstraction-and-Reasoning-Corpus
 This code computes planning programs that solve Abstraction and Reasoning Corpus, which builds on top of the [Progressive Generalized Planning](https://github.com/aig-upf/pgp-landmarks) engine. This brach will be merged into Progressive Generalized Planning, so please stay tuned.
 
-## Documentation Introduction
+## Code Introduction
 
 ARC-PDDL: Python code for PDDL generation for the object-centric ARC subset.
 
