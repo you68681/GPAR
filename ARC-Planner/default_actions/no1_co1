@@ -1,0 +1,5 @@
+0. inc(no1)
+1. goto(=0,!(( zf = 1 )))
+2. clear(no1)
+3. inc(co1)
+4. goto(=0,!(( zf = 1 )))
