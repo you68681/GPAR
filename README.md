@@ -38,7 +38,7 @@ For exmaple:
 
 2.2. Search a program for an ARC task.
 
- ./main.bin GP_Planner Number_of_Program_Line Novelty_Threshold Pointer_Indices Training_Problem_Folder Testing_Problem_Folder Heuristics
+ ./main.bin GP_Planner Program_Line_Number Novelty_Threshold Pointer_Indices Training_Folder Testing_Folder Heuristics
 
  For exmaple:
 
@@ -75,6 +75,6 @@ For example:
 ```shell
 ./validator.bin ./experiments/67385a82_cc4_training_no1_3_1_hp_hln.prog ./new_color_task/67385a82/cc4_testing/ no1:node
 ```
-ALL validations should finish with an `[INFO] GOAL ACHIEVED!`
+All validations should finish with an `[INFO] GOAL ACHIEVED!`
 Great! You have computed your first planning program :-).
 
