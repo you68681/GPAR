@@ -1,19 +1,23 @@
 # Generalized-Planning-for-the-Abstraction-and-Reasoning-Corpus
-This code computes planning programs that solve Abstraction and Reasoning Corpus, which builds on top of the [Progressive Generalized Planning](https://github.com/aig-upf/pgp-landmarks) engine. This brach will be merged into Progressive Generalized Planning, so please keep latest update.
-It starts with a short tutorial, and later explains every step in more detail.
+This code computes planning programs that solve Abstraction and Reasoning Corpus, which builds on top of the [Progressive Generalized Planning](https://github.com/aig-upf/pgp-landmarks) engine. This brach will be merged into Progressive Generalized Planning, so please stay tuned.
 
 ## Documentation Introduction
 
-ARC-PDDL: Python code for PDDL genertation for the object-centric ARC subset.
+ARC-PDDL: Python code for PDDL generation for the object-centric ARC subset.
 
 ARC-Planner: C++ code for program synthesis implemented by generalized planning.
 
 
 ## Short Tutorial
 
-1. Generate the PDDL for each object-centric ARC subsets.
+### Python Prerequisites
 
- python main.py --problem ARC_PROBLEM_FIle --out_dir OUTPUT_FILE --type OBJECT_CENTRIC_TYPE
+```pip install -r requirements.txt```
+
+
+1. Generate the PDDL for each object-centric ARC task.
+
+ python main.py --problem ARC_Problem_Folder --out_dir Output_Folder --type Object_Centric_Type
 
 For exmaple:
 
@@ -23,24 +27,22 @@ For exmaple:
 
 2. Progran Synthesis
 
-2.1 compile the planner.
+2.1 compile the planner for program synthesis and validation.
 ```shell
 ./scripts/compile_main.sh
 ./scripts/compile_validator.sh
 ```
 
-2.2. Search a program for ARC tasks 
- ./main.bin GP_Panner Number_of_Probelm_Line Novelty_Threshold Pointer_Indices Problem_Training_FILE Problem_Testing_File Heuristics
+2.2. Search a program for an ARC task.
+
+ ./main.bin GP_Planner Number_of_Program_Line Novelty_Threshold Pointer_Indices Training_Problem_Folder Testing_Problem_Folder Heuristics
 
  For exmaple:
 
 ```shell
 ./main.bin PGP 3 1 no1:node ./new_color_task/67385a82/cc4_training/ ./new_color_task/67385a82/cc4_testing/ hp hln
 ```
-
-Heuristics can be none so default heuristic will be used (hp hln). 
-
-The resulting program should looks like:
+The output should looks like:
 ```shell
 [INFO] SOLUTION FOUND!!!
 [INFO] Expanded nodes: 26
@@ -53,15 +55,23 @@ The resulting program should looks like:
 4. goto(0,!(( zf = 1 )))
 5. end
 ```
-4. Validate the output program, with and without infinite detection.
 
- ./validator.bin Problem_Testing_File Pointer_Indices
+Note: ```check-condition``` is the same as the ```test``` instruction mentioned in the our paper. They will be merged in the next version.
+
+Heuristics can be none so default heuristics will be used (hp hln). 
+
+The generated results will be saved under ./experiments/ folder. Every experiment has a ".out" file, if it finds a solution also generates a ".prog" file with the planning program.
+
+
+4. Validate the output program.
+
+ ./validator.bin Program_Solution Testing_Folder Pointer_Indices
 
 For example:
 
 ```shell
 ./validator.bin ./experiments/67385a82_cc4_training_no1_3_1_hp_hln.prog ./new_color_task/67385a82/cc4_testing/ no1:node
 ```
-Both validations should finish with an `[INFO] GOAL ACHIEVED!`
+ALL validations should finish with an `[INFO] GOAL ACHIEVED!`
 Great! You have computed your first planning program :-).
 
