@@ -776,7 +776,7 @@ class Graph:
                     self.pixel_similar[i][j] = same_color_copy[0]
                 else:
                     change_pixel.append((i,j))
-                    print("error for color similar")
+                    # print("error for color similar")
 
 
 

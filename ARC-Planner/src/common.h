@@ -21,8 +21,7 @@
 #define PRINT false
 #define FIRST true
 #define CHECK_ALLOWED true
-
-
+#define DESIGNED_ACTIONS true
 
 #ifndef VALIDATOR
 #define MAX_VAL 100

@@ -25,12 +25,21 @@ ARC-Planner: C++ code for program synthesis implemented by generalized planning.
 For exmaple:
 
 ```shell
- python main.py --problem ./ARC-master/data/training/ --out_dir new_color_task --type recolor.txt
+ cd ARC-PDDL
+```
+
+```shell
+ python main.py --problem ./ARC-master/data/training/ --out_dir ../ARC-Planner/new_color_task --type recolor.txt
 ```
 
 2. Progran Synthesis
 
 2.1 compile the planner for program synthesis and validation.
+
+```shell
+ cd ARC-Planner
+```
+
 ```shell
 ./scripts/compile_main.sh
 ./scripts/compile_validator.sh
