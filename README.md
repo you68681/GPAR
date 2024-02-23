@@ -10,12 +10,15 @@ ARC-Planner: C++ code for program synthesis implemented by generalized planning.
 
 ## Short Tutorial
 
-### Python Prerequisites
-
-```pip install -r requirements.txt```
 
 
 1. Generate the PDDL for each object-centric ARC task.
+   
+1.1 Python Prerequisites.
+
+```pip install -r requirements.txt```
+
+1.2 Generate the PDDL.
 
  python main.py --problem ARC_Problem_Folder --out_dir Output_Folder --type Object_Centric_Type
 
@@ -56,7 +59,7 @@ The output should looks like:
 5. end
 ```
 
-Note: ```check-condition``` is the same as the ```test``` instruction mentioned in the our paper. They will be merged in the next version.
+Note: ```check-condition``` is the same as the ```test``` instruction mentioned in our paper. They will be merged in the next version.
 
 Heuristics can be none so default heuristics will be used (hp hln). 
 
