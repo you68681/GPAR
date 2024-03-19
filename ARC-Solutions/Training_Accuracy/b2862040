@@ -1,0 +1,18 @@
+[INFO] SOLUTION FOUND!!!
+[INFO] Expanded nodes: 100
+[INFO] Evaluated nodes: 2540 (deadends: 2407)
+0. check-condition(contain-node(no1,no2))
+1. goto(3,!(( zf = 0 )))
+2. update-color(no1,color-1,color-8)
+3. inc(no1)
+4. goto(0,!(( zf = 1 )))
+5. clear(no1)
+6. inc(no2)
+7. goto(0,!(( zf = 1 )))
+8. end
+
+[INFO] Total time: 3.000
+[INFO] Search time: 1.000
+[INFO] Program file: experiments/new_tasks/b2862040/cc4_training_PGP_3_1_hp_hln.prog
+end output
+[INFO] Experiments file: experiments/new_tasks/b2862040/cc4_training_PGP_3_1_hp_hln.out

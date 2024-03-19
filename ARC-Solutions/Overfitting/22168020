@@ -1,0 +1,18 @@
+[INFO] SOLUTION FOUND!!!
+[INFO] Expanded nodes: 57
+[INFO] Evaluated nodes: 2564 (deadends: 2474)
+0. check-condition(node-relative-position(no1,no2,left))
+1. goto(3,!(( zf = 0 )))
+2. extend-node-direction(no1,left)
+3. inc(no1)
+4. goto(0,!(( zf = 1 )))
+5. clear(no1)
+6. inc(no2)
+7. goto(0,!(( zf = 1 )))
+8. end
+
+[INFO] Total time: 1.000
+[INFO] Search time: 0.000
+[INFO] Program file: experiments/new_tasks/22168020/cc4_black_removed_node_position_training_PGP_3_1_hp_hln.prog
+end output
+[INFO] Experiments file: experiments/new_tasks/22168020/cc4_black_removed_node_position_training_PGP_3_1_hp_hln.out

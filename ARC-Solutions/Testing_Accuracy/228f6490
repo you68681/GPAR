@@ -1,0 +1,22 @@
+[INFO] SOLUTION FOUND!!!
+[INFO] Expanded nodes: 298712
+[INFO] Evaluated nodes: 1756228 (deadends: 1009753)
+0. check-condition(node-color(no1,color-0))
+1. goto(7,!(( zf = 0 )))
+2. check-condition(color-min(no2))
+3. goto(7,!(( zf = 0 )))
+4. check-condition(same-node(no1,no2))
+5. goto(7,!(( zf = 0 )))
+6. swap-color(no1,no2)
+7. inc(no1)
+8. goto(0,!(( zf = 1 )))
+9. clear(no1)
+10. inc(no2)
+11. goto(0,!(( zf = 1 )))
+12. end
+
+[INFO] Total time: 801.000
+[INFO] Search time: 800.000
+[INFO] Program file: experiments/new_tasks/228f6490/scc4_background_removed_edge_check_training_PGP_7_1_hp_hln.prog
+end output
+[INFO] Experiments file: experiments/new_tasks/228f6490/scc4_background_removed_edge_check_training_PGP_7_1_hp_hln.out

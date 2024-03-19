@@ -1,0 +1,26 @@
+[INFO] SOLUTION FOUND!!!
+[INFO] Expanded nodes: 245224
+[INFO] Evaluated nodes: 1802568 (deadends: 905511)
+0. check-condition(node-color(no1,co1))
+1. goto(7,!(( zf = 0 )))
+2. check-condition(node-size(no1,size-1))
+3. goto(7,!(( zf = 0 )))
+4. check-condition(node-relative-position(no1,no2,down))
+5. goto(7,!(( zf = 0 )))
+6. update-color(no2,color-5,co1)
+7. inc(no1)
+8. goto(0,!(( zf = 1 )))
+9. clear(no1)
+10. inc(no2)
+11. goto(0,!(( zf = 1 )))
+12. clear(no1)
+13. clear(no2)
+14. inc(co1)
+15. goto(0,!(( zf = 1 )))
+16. end
+
+[INFO] Total time: 1404.000
+[INFO] Search time: 1403.000
+[INFO] Program file: experiments/new_tasks/ddf7fa4f/cc4_black_removed_node_position_training_PGP_7_1_hp_hln.prog
+end output
+[INFO] Experiments file: experiments/new_tasks/ddf7fa4f/cc4_black_removed_node_position_training_PGP_7_1_hp_hln.out

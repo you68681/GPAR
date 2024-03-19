@@ -1,0 +1,24 @@
+[INFO] SOLUTION FOUND!!!
+[INFO] Expanded nodes: 2752
+[INFO] Evaluated nodes: 25106 (deadends: 9553)
+0. check-condition(node-color(no1,co1))
+1. goto(5,!(( zf = 0 )))
+2. check-condition(node-color(no2,co1))
+3. goto(5,!(( zf = 0 )))
+4. extend-node(no1,no2)
+5. inc(no1)
+6. goto(0,!(( zf = 1 )))
+7. clear(no1)
+8. inc(no2)
+9. goto(0,!(( zf = 1 )))
+10. clear(no1)
+11. clear(no2)
+12. inc(co1)
+13. goto(0,!(( zf = 1 )))
+14. end
+
+[INFO] Total time: 26.000
+[INFO] Search time: 25.000
+[INFO] Program file: experiments/new_tasks/22eb0ac0/cc4_training_PGP_5_1_hp_hln.prog
+end output
+[INFO] Experiments file: experiments/new_tasks/22eb0ac0/cc4_training_PGP_5_1_hp_hln.out

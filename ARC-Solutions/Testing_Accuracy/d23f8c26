@@ -1,0 +1,18 @@
+[INFO] SOLUTION FOUND!!!
+[INFO] Expanded nodes: 33
+[INFO] Evaluated nodes: 536 (deadends: 497)
+0. check-condition(vertical-middle-node(no1))
+1. goto(3,!(( zf = 1 )))
+2. update-color(no1,co1,color-0)
+3. inc(no1)
+4. goto(0,!(( zf = 1 )))
+5. clear(no1)
+6. inc(co1)
+7. goto(0,!(( zf = 1 )))
+8. end
+
+[INFO] Total time: 0.000
+[INFO] Search time: 0.000
+[INFO] Program file: experiments/new_tasks/d23f8c26/pixels_training_PGP_3_1_hp_hln.prog
+end output
+[INFO] Experiments file: experiments/new_tasks/d23f8c26/pixels_training_PGP_3_1_hp_hln.out

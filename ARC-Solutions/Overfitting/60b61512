@@ -1,0 +1,15 @@
+[INFO] SOLUTION FOUND!!!
+[INFO] Expanded nodes: 12
+[INFO] Evaluated nodes: 41 (deadends: 11)
+0. check-condition(node-size(no1,size-1))
+1. goto(3,!(( zf = 1 )))
+2. fill-rectangle(no1,color-7)
+3. inc(no1)
+4. goto(0,!(( zf = 1 )))
+5. end
+
+[INFO] Total time: 0.000
+[INFO] Search time: 0.000
+[INFO] Program file: experiments/new_tasks/60b61512/cc4_background_removed_edge_check_training_PGP_3_1_hp_hln.prog
+end output
+[INFO] Experiments file: experiments/new_tasks/60b61512/cc4_background_removed_edge_check_training_PGP_3_1_hp_hln.out

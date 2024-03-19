@@ -1,0 +1,18 @@
+[INFO] SOLUTION FOUND!!!
+[INFO] Expanded nodes: 107332
+[INFO] Evaluated nodes: 3074692 (deadends: 2539880)
+0. check-condition(node-color(no1,color-2))
+1. goto(6,!(( zf = 0 )))
+2. move-node-max-direction(no1,right-up)
+3. move-node-direction(no1,one,left-down)
+4. move-node-max-direction(no1,up)
+5. move-node-direction(no1,one,right-down)
+6. inc(no1)
+7. goto(0,!(( zf = 1 )))
+8. end
+
+[INFO] Total time: 651.000
+[INFO] Search time: 651.000
+[INFO] Program file: experiments/new_tasks/a1570a43/cc4_black_removed_node_position_training_PGP_6_2_hp_hln.prog
+end output
+[INFO] Experiments file: experiments/new_tasks/a1570a43/cc4_black_removed_node_position_training_PGP_6_2_hp_hln.out

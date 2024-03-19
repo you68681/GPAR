@@ -1,0 +1,15 @@
+[INFO] SOLUTION FOUND!!!
+[INFO] Expanded nodes: 7
+[INFO] Evaluated nodes: 18 (deadends: 3)
+0. check-condition(node-color(no1,color-0))
+1. goto(3,!(( zf = 1 )))
+2. move-node-direction(no1,one,down)
+3. inc(no1)
+4. goto(0,!(( zf = 1 )))
+5. end
+
+[INFO] Total time: 0.000
+[INFO] Search time: 0.000
+[INFO] Program file: experiments/new_tasks/25ff71a9/cc4_black_removed_node_position_training_PGP_3_1_hp_hln.prog
+end output
+[INFO] Experiments file: experiments/new_tasks/25ff71a9/cc4_black_removed_node_position_training_PGP_3_1_hp_hln.out

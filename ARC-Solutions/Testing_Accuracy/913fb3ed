@@ -1,0 +1,19 @@
+[INFO] SOLUTION FOUND!!!
+[INFO] Expanded nodes: 803
+[INFO] Evaluated nodes: 7400 (deadends: 5651)
+0. check-condition(node-color(no1,color-2))
+1. goto(5,!(( zf = 1 )))
+2. check-condition(node-color(no1,color-3))
+3. goto(6,!(( zf = 0 )))
+4. add-border(no1,color-6)
+5. add-border(no1,color-1)
+6. add-border(no1,color-4)
+7. inc(no1)
+8. goto(0,!(( zf = 1 )))
+9. end
+
+[INFO] Total time: 2.000
+[INFO] Search time: 1.000
+[INFO] Program file: experiments/new_tasks/913fb3ed/mcc4_black_removed_training_PGP_7_3_hp_hln.prog
+end output
+[INFO] Experiments file: experiments/new_tasks/913fb3ed/mcc4_black_removed_training_PGP_7_3_hp_hln.out

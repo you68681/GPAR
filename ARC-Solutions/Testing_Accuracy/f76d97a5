@@ -1,0 +1,19 @@
+[INFO] SOLUTION FOUND!!!
+[INFO] Expanded nodes: 1747
+[INFO] Evaluated nodes: 33494 (deadends: 31272)
+0. check-condition(size-max(no1))
+1. goto(3,!(( zf = 0 )))
+2. swap-color(no1,no2)
+3. update-color(no1,color-5,color-0)
+4. inc(no1)
+5. goto(0,!(( zf = 1 )))
+6. clear(no1)
+7. inc(no2)
+8. goto(0,!(( zf = 1 )))
+9. end
+
+[INFO] Total time: 1.000
+[INFO] Search time: 1.000
+[INFO] Program file: experiments/new_tasks/f76d97a5/same_color_training_PGP_4_1_hp_hln.prog
+end output
+[INFO] Experiments file: experiments/new_tasks/f76d97a5/same_color_training_PGP_4_1_hp_hln.out

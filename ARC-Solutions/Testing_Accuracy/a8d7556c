@@ -1,0 +1,15 @@
+[INFO] SOLUTION FOUND!!!
+[INFO] Expanded nodes: 23
+[INFO] Evaluated nodes: 192 (deadends: 168)
+0. check-condition(true)
+1. goto(3,!(( zf = 0 )))
+2. update-color(no1,color-0,color-2)
+3. inc(no1)
+4. goto(0,!(( zf = 1 )))
+5. end
+
+[INFO] Total time: 3.000
+[INFO] Search time: 0.000
+[INFO] Program file: experiments/new_tasks/a8d7556c/black_node_4_training_PGP_3_1_hp_hln.prog
+end output
+[INFO] Experiments file: experiments/new_tasks/a8d7556c/black_node_4_training_PGP_3_1_hp_hln.out

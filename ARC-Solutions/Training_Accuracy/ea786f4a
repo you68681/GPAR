@@ -1,0 +1,20 @@
+[INFO] SOLUTION FOUND!!!
+[INFO] Expanded nodes: 41
+[INFO] Evaluated nodes: 510 (deadends: 160)
+0. check-condition(right-diagonal-node(no1))
+1. goto(4,!(( zf = 1 )))
+2. check-condition(left-diagonal-node(no1))
+3. goto(5,!(( zf = 0 )))
+4. update-color(no1,co1,color-0)
+5. inc(no1)
+6. goto(0,!(( zf = 1 )))
+7. clear(no1)
+8. inc(co1)
+9. goto(0,!(( zf = 1 )))
+10. end
+
+[INFO] Total time: 1.000
+[INFO] Search time: 0.000
+[INFO] Program file: experiments/new_tasks/ea786f4a/pixels_training_PGP_5_1_hp_hln.prog
+end output
+[INFO] Experiments file: experiments/new_tasks/ea786f4a/pixels_training_PGP_5_1_hp_hln.out

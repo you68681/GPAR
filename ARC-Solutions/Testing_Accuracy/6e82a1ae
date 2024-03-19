@@ -1,0 +1,19 @@
+[INFO] SOLUTION FOUND!!!
+[INFO] Expanded nodes: 7891
+[INFO] Evaluated nodes: 110653 (deadends: 96663)
+0. check-condition(node-size(no1,size-3))
+1. goto(5,!(( zf = 1 )))
+2. check-condition(node-size(no1,size-2))
+3. goto(6,!(( zf = 0 )))
+4. update-color(no1,color-5,color-3)
+5. update-color(no1,color-5,color-2)
+6. update-color(no1,color-5,color-1)
+7. inc(no1)
+8. goto(0,!(( zf = 1 )))
+9. end
+
+[INFO] Total time: 15.000
+[INFO] Search time: 15.000
+[INFO] Program file: experiments/new_tasks/6e82a1ae/cc4_training_PGP_7_3_hp_hln.prog
+end output
+[INFO] Experiments file: experiments/new_tasks/6e82a1ae/cc4_training_PGP_7_3_hp_hln.out

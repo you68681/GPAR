@@ -1,0 +1,17 @@
+[INFO] SOLUTION FOUND!!!
+[INFO] Expanded nodes: 3089
+[INFO] Evaluated nodes: 244163 (deadends: 236715)
+0. check-condition(node-color(no1,color-8))
+1. goto(4,!(( zf = 0 )))
+2. update-color(no1,color-8,color-5)
+3. end
+4. update-color(no1,color-5,color-8)
+5. inc(no1)
+6. goto(0,!(( zf = 1 )))
+7. end
+
+[INFO] Total time: 2.000
+[INFO] Search time: 2.000
+[INFO] Program file: experiments/new_tasks/d511f180/same_color_training_PGP_5_2_hp_hln.prog
+end output
+[INFO] Experiments file: experiments/new_tasks/d511f180/same_color_training_PGP_5_2_hp_hln.out

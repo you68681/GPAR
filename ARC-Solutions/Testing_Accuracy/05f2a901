@@ -1,0 +1,18 @@
+[INFO] SOLUTION FOUND!!!
+[INFO] Expanded nodes: 29
+[INFO] Evaluated nodes: 101 (deadends: 28)
+0. check-condition(node-color(no1,color-2))
+1. goto(3,!(( zf = 1 )))
+2. move-node(no2,no1)
+3. inc(no1)
+4. goto(0,!(( zf = 1 )))
+5. clear(no1)
+6. inc(no2)
+7. goto(0,!(( zf = 1 )))
+8. end
+
+[INFO] Total time: 0.000
+[INFO] Search time: 0.000
+[INFO] Program file: experiments/new_tasks/05f2a901/cc4_background_removed_corner_check_training_PGP_3_1_hp_hln.prog
+end output
+[INFO] Experiments file: experiments/new_tasks/05f2a901/cc4_background_removed_corner_check_training_PGP_3_1_hp_hln.out

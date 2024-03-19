@@ -1,0 +1,22 @@
+[INFO] SOLUTION FOUND!!!
+[INFO] Expanded nodes: 463669
+[INFO] Evaluated nodes: 17289407 (deadends: 16368675)
+0. check-condition(node-color(no1,color-6))
+1. goto(7,!(( zf = 1 )))
+2. check-condition(node-color(no1,color-3))
+3. goto(6,!(( zf = 0 )))
+4. check-condition(node-size(no2,size-12))
+5. goto(7,!(( zf = 0 )))
+6. swap-color(no1,no2)
+7. inc(no1)
+8. goto(0,!(( zf = 1 )))
+9. clear(no1)
+10. inc(no2)
+11. goto(0,!(( zf = 1 )))
+12. end
+
+[INFO] Total time: 948.000
+[INFO] Search time: 948.000
+[INFO] Program file: experiments/new_tasks/bda2d7a6/same_color_training_PGP_7_1_hp_hln.prog
+end output
+[INFO] Experiments file: experiments/new_tasks/bda2d7a6/same_color_training_PGP_7_1_hp_hln.out

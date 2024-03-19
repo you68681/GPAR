@@ -1,0 +1,18 @@
+[INFO] SOLUTION FOUND!!!
+[INFO] Expanded nodes: 25
+[INFO] Evaluated nodes: 115 (deadends: 60)
+0. check-condition(node-color(no1,color-5))
+1. goto(3,!(( zf = 1 )))
+2. insert-input-node(no2,no1)
+3. inc(no1)
+4. goto(0,!(( zf = 1 )))
+5. clear(no1)
+6. inc(no2)
+7. goto(0,!(( zf = 1 )))
+8. end
+
+[INFO] Total time: 0.000
+[INFO] Search time: 0.000
+[INFO] Program file: experiments/new_tasks/e76a88a6/mcc4_black_removed_training_PGP_3_1_hp_hln.prog
+end output
+[INFO] Experiments file: experiments/new_tasks/e76a88a6/mcc4_black_removed_training_PGP_3_1_hp_hln.out

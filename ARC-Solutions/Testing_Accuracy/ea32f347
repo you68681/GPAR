@@ -1,0 +1,19 @@
+[INFO] SOLUTION FOUND!!!
+[INFO] Expanded nodes: 8521
+[INFO] Evaluated nodes: 142543 (deadends: 125123)
+0. check-condition(size-min(no1))
+1. goto(6,!(( zf = 1 )))
+2. check-condition(size-max(no1))
+3. goto(5,!(( zf = 1 )))
+4. update-color(no1,color-5,color-4)
+5. update-color(no1,color-5,color-1)
+6. update-color(no1,color-5,color-2)
+7. inc(no1)
+8. goto(0,!(( zf = 1 )))
+9. end
+
+[INFO] Total time: 12.000
+[INFO] Search time: 11.000
+[INFO] Program file: experiments/new_tasks/ea32f347/cc4_background_removed_corner_check_training_PGP_7_3_hp_hln.prog
+end output
+[INFO] Experiments file: experiments/new_tasks/ea32f347/cc4_background_removed_corner_check_training_PGP_7_3_hp_hln.out
