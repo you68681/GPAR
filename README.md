@@ -49,7 +49,7 @@ For exmaple:
 
  ./main.bin GP_Planner Program_Line_Number Novelty_Threshold Pointer_Indices Training_Folder Testing_Folder Heuristics
 
- Note: different pointer_indices are separated by commas, such as no1:node,no2:node)
+ Note: different pointer_indices are separated by commas, such as no1:node,no2:node
  
  For exmaple:
 
